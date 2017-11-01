@@ -1,0 +1,371 @@
+body, html {
+				height: 100%;
+				margin: 0;
+			}
+
+			.bg {
+				background-image: url("Images/beach.jpg");
+				height: 80%; 
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+
+			.bg1{
+				background-image: url("Images/beach.jpg");
+				height: 40%; 
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			.bg2{
+				background-image: url("Images/beach.jpg");
+				height: 130%; 
+				background-attachment: fixed;
+				background-position: center;
+				background-repeat: no-repeat;
+				background-size: cover;
+			}
+			
+			.second{
+				background-color:rgba(230,230,230,0.4);	
+			}
+			.third{
+				background-color:#E2EEFC;
+			}
+			.fourth{
+				background-color:rgba(230,230,230,0.4);
+			}
+
+			.nav{
+				font-family:Courier;
+				font-size:125%;
+			}
+
+			.navbar{
+				background-color: rgba(255,255,255,1) !important;
+				border:0;
+				border-radius:0;
+				padding:15px
+			}
+			.navbar2{
+				font-family: 'Raleway', sans-serif;
+				background-color: #FFF !important;
+				border:0;
+				border-radius:0;
+				padding:0px;
+				border-bottom:1px solid #E2E2E2;
+			}
+	
+			.navbar-brand{
+				margin:0px;
+				padding:0px;
+				display:inline-block;
+			}
+			.navbar .brand,  .nav > li > a:hover{
+				background-color: #E2EEFC;
+			}
+			.navbar-toggle:hover{
+				background-color:#E2EEFC;
+			}
+
+			.navbar.navbar-fade{
+				background-color: transparent;
+			}
+
+			.heading-font{
+				font-family: 'Ubuntu', sans-serif !important;
+				color:white; 
+				font-size:15px;
+				display:inline-block;
+			}
+
+			.navbar-text{
+				font-size:20px;
+				margin:10px;
+
+			}
+
+			.welcome-header{
+				font-family: 'Sanchez', serif;
+				text-align:center;
+				font-weight:bold;
+				color:rgba(50,150,250,1)
+
+			}
+
+			.panel-default{ 
+				border-radius:15px;
+			}
+
+			.label-header{
+				font-size:150%;
+				font-family: 'Sanchez', serif;
+				color:#444;
+			 }
+
+			 .head-pan{
+			 	font-family: 'Sanchez', serif;
+				background-color: lightblue;
+				font-size:120%;
+			 }
+
+			 .panel-content{
+				font-family: 'PT Sans', sans-serif;
+				color:#555;
+				font-size:110%;
+			 }
+
+			 #panel-roundborder{
+				border-radius:75px !important;
+				font-family: 'Montserrat', sans-serif;
+				font-size:20px;
+				margin:18px;
+			 }
+
+			 .panel-primary{
+			 	border-radius:5px !important;
+			 }
+
+			 .panel-group{
+			 	border-radius:0px !important;
+			 	padding:25px;
+			 	text-align:left;
+			 	border-bottom:0px !important;
+			 }
+
+			 .glyphicon-plus-sign:hover{
+			 	cursor:pointer;
+			 }
+			 .question{
+			 	font-family: 'PT Sans', sans-serif;
+			 	font-weight: bold;
+			 	font-size:20px;
+			 	background-color: #E2EEFC;
+			 	text-indent:10px;
+			 	padding:2px;
+			 }
+			 .question:hover{
+			 	cursor:pointer;
+			 }
+			 .answer{
+			 	font-family: 'PT Sans', sans-serif;
+			 	font-size:110%;
+			 }
+			 .panel-info{
+			 	border:0px !important
+			 }
+
+			 #icon-check{
+				float:left;
+				line-height:35px;
+				color:lightblue;
+				font-size:50px;
+			 }
+
+			 #icon-check2{
+				float:left;
+				line-height:55px;
+				color:lightblue;
+				font-size:50px;
+			 }
+
+			 #sub-but{
+				border:0px;
+				background-color: lightblue;
+				padding:20px;
+				border-radius:65px;
+			 }
+
+			 footer {
+			background-color:#333;
+			color: white; 
+			font-family:Courier;
+			} 
+
+			.footer-header{
+				font-size:120%;
+				font-weight: bold;
+				color:#555;
+			}
+			.footer-body{
+				font-family: 'Montserrat', sans-serif;
+				color:#555;
+				font-size:90%;
+				text-align:left;
+			}
+
+			.panel-label{
+				font-family: 'Montserrat', sans-serif;
+				font-size:90%;
+			}
+
+			.well{
+				margin:auto;
+				width:100%;
+				height:100%;
+				background-color:transparent;
+				border:0;
+			}
+
+			.well-rooms{
+				border-top:1px solid #9E9E9E;
+				border-radius:0;
+				padding:20px;
+				padding-bottom:50px;
+				width:95%;
+			}
+
+			.well.well-title{
+				border:1px solid black !important;
+			}
+
+		
+			.room-content{
+				padding:20px;
+				background-color: rgba(100,150,250, 0.2);
+			}
+			.room-content2{
+				padding:20px;
+				background-color: rgba(100,150,250, 0.2);
+				border-top:1px solid rgba(100,150,250, 0.3);
+			}
+			.room-content3{
+				padding:20px;
+				background-color: rgba(100,150,250, 0.2);
+				border-bottom: 1px solid black;
+			}
+			.room-header{
+				font-family: 'Montserrat', sans-serif;
+				font-size:25px;
+			}
+
+			.breaker{
+				border-color:rgba(100,150,250, 0.2);
+				width:100%;
+				padding:0px !important;
+				margin-top:0px !important;
+			}
+			.breaker2{
+				border-color:rgba(100,150,250, 0.2);
+				width:116%;
+				padding:0px !important;
+				margin-top:0px !important;
+			}
+
+			.list-rooms{
+				font-family: 'Montserrat', sans-serif;
+				font-size:110%;
+				padding:20px;
+
+			}
+
+			.header2{
+				font-family: 'PT Sans', sans-serif;
+				margin:0;
+			}
+
+			.text-welcome{
+				padding:5px;
+				margin:10px;
+				font-family: 'PT Sans', sans-serif;
+				font-size:17px;
+				text-indent:75px;
+				color:#444;
+			}
+
+			.btn-book{
+				position:absolute;
+				bottom:25%; 
+				left:28%; 
+				font-size:150%;
+				width:20%;
+				height:9%;
+				background-color:#0069FF;
+				border:0px;
+				font-family: 'Raleway', sans-serif;
+				white-space:normal;
+				padding:0px;
+				color:white;
+			}
+			.btn-book2{
+				position:absolute; 
+				bottom:25%; 
+				left:7%;
+				font-size:150%;
+				width:20%;
+				height:9%;
+				background-color:rgba(100,150,250,0);
+				white-space:normal;
+				font-family: 'Raleway', sans-serif;
+				padding:0px;
+				
+			}
+
+			.btn-book:hover{
+				background-color:rgba(100,165,250,1);
+			}
+
+			.btn-book2:hover{
+				background-color:rgba(250,250,250,0.2);
+			}
+			.media-body{
+				color:#444;
+			}
+			.media-heading{
+				font-family: 'PT Sans', sans-serif;
+				font-size:150%;
+				font-weight:bold;
+				color:#0069FF !important;
+			}
+
+			#glyph-toggle1{
+				font-size:25px;
+				margin-right:5px;
+				color:#0069FF;
+				margin-top:1px;
+			}
+			#glyph-toggle2{
+				font-size:25px;
+				margin-right:5px;
+				color:#0069FF;
+				margin-top:1px;
+			}
+			#glyph-toggle3{
+				font-size:25px;
+				margin-right:5px;
+				color:#0069FF;
+				margin-top:1px;
+			}
+			.heading-about{
+				font-family: 'Nunito', sans-serif;
+				font-size:40px;
+				color:#0069FF;
+			}
+			.body-about{
+				font-family: 'Lato', sans-serif;
+				font-size:17px;
+			}
+			.heading-core{
+				font-family: 'Nunito', sans-serif;
+				font-size:33px;
+			}
+			.head-list{
+				font-family: 'Nunito', sans-serif;
+				margin-left:50px;
+				font-weight:bold;
+			}
+			.head-list:hover{
+				cursor:pointer;
+			}
+			.body-list{
+				font-family: 'Lato', sans-serif;
+				margin-left:90px;
+				margin-right:10px;
+				padding:10px;
+				font-size:17px;
+			}
+			.headlist2{
+				color:#0069FF;
+			}

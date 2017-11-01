@@ -249,7 +249,7 @@
 		<div class="container-fluid" style="background-color: #555">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-right" style="padding:5px; font-family: 'Montserrat', sans-serif; color:white"><big>&copy;</big> 2008 - 2017 Blue Spruce Beach Resort</p>
+					<p class="text-right" style="padding:5px; font-family: 'Montserrat', sans-serif; color:white"><big>&copy;</big> 2008 - 2017 Blue Spruce Beach Resort abcdef</p>
 				</div>
 			</div>
 		</div>

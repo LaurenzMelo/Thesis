@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 		<link rel="stylesheet" href="bootstrap-3.3.7-dist/font-awesome-4.7.0/css/font-awesome.min.css">
 		<link href="https://fonts.googleapis.com/css?family=PT+Sans+Caption|Sanchez|Ovo|Montserrat|Raleway|Montserrat+Alternates|Lato|Open+Sans|Ubuntu|PT+Sans" rel="stylesheet">
+		<script src="scrollreveal-master/dist/scrollreveal.min.js"></script>
+		<script src="jquery-ui-1.12.1.custom/jquery-ui.js"></script>
 
 			<script type="text/javascript">
 
@@ -50,6 +52,13 @@
 				  })
 				});
 
+			$(function(){
+				$('#datepick').datepicker();
+		    $('#btn-book').click(function() {
+		          $('#datepick').datepicker('show');
+		    });
+			});
+
 				jQuery(document).ready(function() {
 
 				  var navOffset = jQuery(".navbar").offset().top;
@@ -70,21 +79,14 @@
 				  });
 				});
 
-				/*$(function() {
-					$("#from").datepicker({
-						showOn: "both",
-						minDate:0,
-					});
+				$(function(){
+					window.sr = ScrollReveal();
+					sr.reveal('#panel-slide1', { duration: 1500 });
+					sr.reveal('#panel-slide2', { duration: 2000 });
+					sr.reveal('#panel-slide3', { duration: 2500 });
 				});
 
-				$(function() {
-					$("#to").datepicker({
-						showOn: "both",
-						minDate: $("#from").datepicker("getDate"),
-						maxDate: 5,
-					});
-				});*/
-
+				
 				
 			</script>
 
@@ -116,7 +118,7 @@
 				</div>
 			</nav>
 
-			<a href="#"><button type="button" class="btn btn-default btn-book">BOOK NOW</button></a>
+			<a href="reservationProper.php"><button type="button" class="btn btn-default btn-book" id="btn-book">BOOK NOW</button></a>
 			<a href="#here" class="smooth-scroll"><button type="button" class="btn btn-default btn-book2">Know More</button></a>
 		</div>
 		
@@ -125,20 +127,20 @@
 			<br>
 			<div class="container-fluid">
 				<center><img src="Images/welcome.png" class="img-responsive" style="width:1000px;"></center>
-				<div class="col-md-3">	
+				<div class="col-md-1">	
 				</div>
-				<div class="col-md-6 col-xs-12 col-sm-4">
+				<div class="col-md-10 col-xs-12 col-sm-10">
 					<div class="well well-lg">
 							<div class="text-center">
 								<h3 class="header2"> <b>Relax and unwind in our cozy and peaceful resort</b></h3>
 								<div class="text-justify">
-									<p class="text-welcome"> Planning a vacation in the Philippines? Go to the Blue Spruce Beach Resort where you can stay in a hotel room, cottage, or hut. The resort also includes a picnic area, restrooms with showers.</p>
+									<p class="text-welcome"> Planning a vacation in the Philippines? Go to the Blue Spruce Beach Resort where you can stay in a hotel room, cottage, or hut. The resort also includes a picnic area, restrooms with showers, and amenities that will surely give you euphoria.</p>
 									<p class="text-welcome">  An ideal location for a tropical beach holiday, summer getaway, or even unwinding moment, Blue Spruce Beach Resort is the best place for you. Sitting right next to the West Philippine Sea or formerly known as South China Sea, this astounding resort must be included in anyone’s travel checklist. </p>
 								</div>
 							</div>
 						</div>
 				</div>
-				<div class="col-md-3">
+				<div class="col-md-1">
 		</section>
 
 		<section class="bg2">
@@ -146,7 +148,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-4 col-xs-12 col-sm-4 text-center">
-						<div class="panel panel-default">
+						<div class="panel panel-default" id="panel-slide1">
 							<img class="img-responsive" src="Images/spot.jpg">
 							<div class="panel-body">
 								<p class="label-header"><b>Bonding</b></p>
@@ -156,7 +158,7 @@
 					</div>
 
 					<div class="col-md-4 col-xs-12 col-sm-4 text-center">
-						<div class="panel panel-default">
+						<div class="panel panel-default panel-slide" id="panel-slide2">
 							<img src="Images\view2.jpg" class="img-responsive">
 							<div class="panel-body">
 								<p class="label-header"><b>Relaxing View</b></p>
@@ -166,7 +168,7 @@
 					</div>
 
 					<div class="col-md-4 col-xs-12 col-sm-4 text-center">
-						<div class="panel panel-default">
+						<div class="panel panel-default" id="panel-slide3">
 							<img src="Images\sand.jpg" class="img-responsive">
 							<div class="panel-body">
 								<p class="label-header"><b>Ambiance</b></p>
@@ -174,37 +176,6 @@
 							</div>
 						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-md-4 col-xs-12 col-sm-4 text-center">
-					<div class="panel panel-default">
-						<img class="img-responsive" src="Images/spot.jpg">
-						<div class="panel-body">
-							<p class="label-header"><b>Bonding</b></p>
-							<p class="panel-content">Enjoy your stay with the family or friends with our unblemished rooms and tidy picnic tables</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-xs-12 col-sm-4 text-center">
-					<div class="panel panel-default">
-						<img src="Images\view2.jpg" class="img-responsive">
-						<div class="panel-body">
-							<p class="label-header"><b>Relaxing View</b></p>
-							<p class="panel-content">Relax and unwind in our calm ocean where the land meets the West Philippine Sea</p>
-						</div>
-					</div>
-				</div>
-
-				<div class="col-md-4 col-xs-12 col-sm-4 text-center">
-					<div class="panel panel-default">
-						<img src="Images\sand.jpg" class="img-responsive">
-						<div class="panel-body">
-							<p class="label-header"><b>Ambiance</b></p>
-							<p class="panel-content">Here, we have ambiance that will awaken the nature-lover part of yourself!</p>
-						</div>
-					</div>
-				</div>
 				</div>
 			</div>
 		</section>
@@ -249,10 +220,11 @@
 		<div class="container-fluid" style="background-color: #555">
 			<div class="row">
 				<div class="col-md-12">
-					<p class="text-right" style="padding:5px; font-family: 'Montserrat', sans-serif; color:white"><big>&copy;</big> 2008 - 2017 Blue Spruce Beach Resort abcdef</p>
+					<p class="text-right" style="padding:5px; font-family: 'Montserrat', sans-serif; color:white"><big>&copy;</big> 2008 - 2017 Blue Spruce Beach Resort</p>
 				</div>
 			</div>
 		</div>
+
 
 
 	</body>

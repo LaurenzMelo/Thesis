@@ -59,7 +59,7 @@
 
 		</script>
 	</head>
-	<body>
+	<body style="100%">
 		<section>
 			<nav class="navbar navbar-fixed-top navbar-fade navbar2">
 				<div class="container">
@@ -76,8 +76,8 @@
 							<li><a href="index.php" style="color:#555">HOME <span class="glyphicon glyphicon-home"></span></a></li>
 							<li><a href="rooms.php" style="color:#555">ROOMS <span class="glyphicon glyphicon-list-alt"></span></a></li>
 							<li><a href="aboutus.php" style="color:#555">ABOUT US <span class="glyphicon glyphicon-user"></span></a></li>
-							<li><a href="FAQ.php" style="color:#555">F A Q <span class="glyphicon glyphicon-question-sign"></span></a></li>
-							<li><a href="#" style="color:white; background-color:#0069FF; border-bottom:0">Book Now</a></li>
+							<li class="FAQ"><a href="FAQ.php" style="color:#555">F A Q <span class="glyphicon glyphicon-question-sign"></span></a></li>
+							<li><a href="reservationProper.php" style="color:white; background-color:#0069FF; border-bottom:0">Book Now</a></li>
 						</ul>
 					</div>
 				</div>

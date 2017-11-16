@@ -41,6 +41,7 @@
 			$(function () { 
 				$(".body-list").hide();
 
+
 				$("#head-list1").click(function(){
 					$("#body-list1").slideToggle(200);
 					$("#head-list1").toggleClass("headlist2")
@@ -92,9 +93,9 @@
 						<ul class="nav navbar-nav navbar-right heading-font text-center">
 							<li><a href="index.php" style="color:#555">HOME <span class="glyphicon glyphicon-home"></span></a></li>
 							<li><a href="rooms.php" style="color:#555">ROOMS <span class="glyphicon glyphicon-list-alt"></span></a></li>
-							<li><a href="aboutus.php" style="color:#555">ABOUT US <span class="glyphicon glyphicon-user"></span></a></li>
+							<li class="about-us"><a href="aboutus.php" style="color:#555">ABOUT US <span class="glyphicon glyphicon-user"></span></a></li>
 							<li><a href="FAQ.php" style="color:#555">F A Q <span class="glyphicon glyphicon-question-sign"></span></a></li>
-							<li><a href="#" style="color:white; background-color:#0069FF; border-bottom:0">Book Now</a></li>
+							<li><a href="reservationProper.php" style="color:white; background-color:#0069FF; border-bottom:0">Book Now</a></li>
 						</ul>
 					</div>
 				</div>
@@ -125,7 +126,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h1 class="heading-core text-center"> Our Core Values </h1><br>
-						<div class="row">
+						<div class="row" id="row1">
 							<h3 class="head-list text-left" id="head-list1"><span style="color: #0069FF">Cleanliness</span> is the key <i class="fa fa-key" aria-hidden="true"></i> </h3>
 							<p class="body-list" id="body-list1">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
 						</div>
@@ -153,13 +154,7 @@
 				</div>
 			</div>
 			<br><br><br>
-			<hr style="border-color: #C2C2C2;">
-		</section>
-
-		<section>
-			<br><br><br>
-
-			<br><br><br>
+			
 		</section>
 
 		<hr style="border-color: #C2C2C2;">
